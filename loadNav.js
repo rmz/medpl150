@@ -7,5 +7,4 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(data => {
       navPlaceholder.innerHTML = data;
     })
-    //.catch(err => console.error("Navigation load error:", err));
 });
